@@ -1,0 +1,291 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 85%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+/* .main--container {
+    padding: 20px 20px 0;
+    background-color: hsl(217, 28%, 15%);
+} */
+
+/* ================================================== header ================================================== */
+
+header {
+    height: 74vh;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.header--container {
+    padding: 20px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--logo img {
+    width: 78px;
+    height: 24px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-size: 1.2rem;
+    color: var(--light-gray);
+    text-decoration: none;
+    letter-spacing: .2px;
+}
+
+.header--ilustration-intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+}
+
+.header--ilustration-intro img {
+    width: 80%;
+    height: 215px;
+    max-width: 302px;
+}
+
+.header--description {
+    width: 100%;
+    height: 150px;
+    margin-top: 235px;
+    padding: 0 30px;
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-color: hsl(217, 28%, 15%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.header--description h1 {
+    margin: 68px 0 20px;
+    color: var(--white);
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+}
+
+.header--description p {
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    color: var(--light-gray);
+    line-height: 2.2rem;
+    letter-spacing: .4px;
+    padding: 0 6px;
+}
+
+.header--description button {
+    padding: 13px 70px;
+    color: var(--white);
+    border-radius: 20px;
+    background-color: hsl(198, 60%, 50%);
+    border: 1px solid hsl(198, 60%, 50%);
+}
+
+
+/* ================================================== main ================================================== */
+
+main {
+    padding: 350px 20px 250px;
+    text-align: center;
+    color: var(--white);
+    background-color: hsl(218, 28%, 13%);
+}
+
+.main--services {
+    width: 100%;
+    margin-bottom: 80px;
+    padding: 0 5px;
+}
+
+.main--services figure img {
+    width: 60px;
+    margin-bottom: 25px;
+}
+
+.main--services h2 {
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    letter-spacing: .2px;
+}
+
+.main--services p {
+    font-size: 1.3rem;
+    padding: 0 10px;
+    color: var(--light-gray);
+    line-height: 2rem;
+    letter-spacing: .4px;
+}
+
+.main--container-productivity {
+    text-align: start;
+    margin: 130px 0;
+    padding: 0 14px;
+}
+
+.main--illustraton-stay {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main--illustraton-stay img {
+    width: 90%;
+    height: 215px;
+    max-width: 305px;
+}
+
+.main--container-productivity h2 {
+    margin: 40px 0 20px;
+    font-size: 1.8rem;
+    letter-spacing: .2px;
+}
+
+.main--container-productivity p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    letter-spacing: .3px;
+    line-height: 2rem;
+    color: var(--light-gray);
+}
+
+.main-productivity--access {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.main-productivity--access a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    letter-spacing: .5px;
+    color: hsl(176, 68%, 64%);
+}
+
+.main-productivity--access img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.main--container-profiles {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.main--profiles {
+    margin-bottom: 20px;
+    padding: 30px 25px 20px;
+    text-align: start;
+    border-radius: 5px;
+    background-color: hsl(217, 28%, 15%);
+}
+
+.main--profiles p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 2rem;
+    letter-spacing: .2px;
+    color: var(--light-gray);
+}
+
+.main--photo {
+    display: flex;
+    align-items: center;
+}
+
+.main--photo figure img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.main--name h3 {
+    font-size: 1.1rem;
+    letter-spacing: .7px;
+}
+
+.main--name p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--light-gray);
+}
+
+.main--container-registration {
+    width: 90%;
+    margin-top: 80px;
+    padding: 40px 35px 30px;
+    border-radius: 8px;
+    background-color: hsl(217, 28%, 15%);
+    box-shadow: 5px 5px 10px hsl(216deg 52% 8%);
+    position: absolute;
+}
+
+.main--container-registration h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    letter-spacing: .4px;
+}
+
+.main--container-registration p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    color: var(--light-gray);
+    line-height: 2rem;
+    letter-spacing: .4px;
+}
+
+.main--container-registration input {
+    padding: 14px 62px 13px 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.main--container-registration button {
+    padding: 14px 70px;
+    color: var(--white);
+    border-radius: 20px;
+    background-color: hsl(198, 60%, 50%);
+    border: 1px solid hsl(198, 60%, 50%);
+}
+
+/* ================================================== footer ================================================== */
+
+footer {
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+    background-color: hsl(216, 53%, 9%);
+}
