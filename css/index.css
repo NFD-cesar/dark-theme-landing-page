@@ -25,6 +25,7 @@ body button:hover {
 body a:hover {
     color: tomato;
     transition-duration: .8s;
+    text-decoration: underline;
 }
 
 /* ================================================== header ================================================== */
@@ -174,7 +175,7 @@ main {
 .main--container-productivity {
     width: 100%;
     max-width: 335px;
-    margin: 50px auto 130px;
+    margin: 50px auto 80px;
     padding: 0 14px;
     text-align: start;
 }
@@ -225,15 +226,21 @@ main {
     margin-left: 10px;
 }
 
+.main--container-profiles > figure img {
+    width: 20px;
+    margin-right: 88%;
+}
+
 .main--container-profiles {
     width: 100%;
-    padding: 0 20px;
+    max-width: 335px;
+    margin: 0 auto 50px;
+    padding: 50px 20px 0;
 }
 
 .main--profiles {
     width: 100%;
-    max-width: 295px;
-    margin: 0 auto 20px;
+    margin-bottom: 20px;
     padding: 30px 25px 20px;
     text-align: start;
     border-radius: 5px;
@@ -331,7 +338,7 @@ footer {
 .footer--container-contact {
     width: 100%;
     max-width: 375px;
-    padding: 200px 35px 0 25px;
+    padding: 220px 35px 0 25px;
 }
 
 .footer--container-contact > figure img {
