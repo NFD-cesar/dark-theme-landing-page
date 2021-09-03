@@ -1,34 +1,303 @@
-@media (min-width: 500px) {
-    .header--logo img {
-        width: 100px;
-        height: 32px;
-    }
-
-    nav ul li a {
-        font-size: 1.3rem;
-    }
-    
-    .header--description {
-        max-width: 950px;
-        height: 250px;
-        margin-top: 230px;
-        background-image: url(../images/bg-curvy-desktop.svg);
+@media (min-width: 425px) {
+    .header--container-description {
+        height: 200px;
     }
 }
 
-@media (min-width: 725px) {
-    .main--container-service {
+@media (min-width: 500px) {
+    /* .header--logo img {
+        width: 100px;
+        height: 32px;
+    } */
+
+    /* nav ul li a {
+        font-size: 1.3rem;
+    } */
+
+    .header--ilustration-intro {
+        top: 80px;
+    }
+    
+    .header--ilustration-intro img {
         width: 100%;
-        max-width: 725px;
+        height: 260px;
+        max-width: 390px;
+    }
+
+    .header--container-description {
+        max-width: 1440px;
+        height: 250px;
+        margin-top: 340px;
+        background-image: url(../images/bg-curvy-desktop.svg);
+    }
+
+    .header--description {
+        max-width: 450px;
+    }
+
+    .header--container-description h1 {
+        margin: -30px 0 20px;
+    }
+
+    .header--container-description p {
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding: 250px 20px 250px;
+    }
+}
+
+@media (min-width: 810px) {
+    header {
+        height: 90vh;
+    }
+    
+    .header--container {
+        padding: 30px 50px 0;
+    }
+
+    .header--ilustration-intro {
+        top: 100px;
+    }
+
+    .header--ilustration-intro img {
+        height: 280px;
+        max-width: 410px;
+    }
+
+    .header--container-description {
+        height: 300px;
+        margin-top: 375px;
+    }
+
+    .header--container-description h1 {
+        margin: -40px 0 20px;
+        font-size: 2.4rem;
+        line-height: 3.8rem;
+    }
+
+    main {
+        padding: 250px 20px 250px;
+    }
+
+    .main--container-service {
+        max-width: 810px;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
     .main--services {
-        width: 100%;
         height: auto;
-        max-width: 350px;
+        max-width: 380px;
+        padding: 0 14px;
+    }
+
+    .main--services .anywhere {
+        width: 50px;
+        height: 48px;
+    }
+
+    .main--services .secure {
+        width: 50px;
+        height: 58px;
+        margin-bottom: 12px;
+    }
+
+    .main--container-productivity {
+        height: 350px;
+        max-width: 850px;
+        margin: 0 auto 80px;
         padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .main--illustraton-stay {
+        max-width: 400px;
+        justify-content: flex-start;
+    }
+
+    .main--illustraton-stay img {
+        height: 260px;
+        max-width: 340px;
     }
 }
+
+@media (min-width: 950px) {
+    .header--container {
+        padding: 50px 60px 0;
+    }
+
+    .header--logo img {
+        width: 110px;
+        height: 32px;
+    }
+
+    nav ul li {
+        margin-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 1.4rem;
+    }
+
+    .header--ilustration-intro {
+        top: 110px;
+    }
+
+    .header--ilustration-intro img {
+        height: 340px;
+        max-width: 480px;
+    }
+
+    .header--description {
+        max-width: 500px;
+    }
+
+    .header--container-description {
+        height: 450px;
+        margin-top: 420px;
+    }
+
+    .header--container-description h1 {
+        margin: -40px 0 25px;
+        font-size: 2.8rem;
+        line-height: 4rem;
+    }
+
+    .header--container-description p {
+        margin-bottom: 35px;
+        font-size: 1.6rem;
+    }
+
+    .main--container-service {
+        max-width: 950px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .main--illustraton-stay {
+        max-width: 450px;
+    }
+    
+    .main--illustraton-stay img {
+        width: 100%;
+        height: 335px;
+        max-width: 455px;
+    }
+
+    .main--container-productivity {
+        max-width: 950px;
+    }
+
+    .container--pruductivity-description {
+        width: 500px;
+        padding-left: 40px;
+    }
+
+    .main--container-productivity h2 {
+        padding-right: 60px;
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
+    .main--container-icon {
+        position: absolute;
+    }
+
+    .main--container-profiles .main--container-icon figure img {
+        width: 45px;
+        left: -5px;
+        bottom: -8px;
+        position: absolute;
+    }
+
+    .main--container-profiles {
+        max-width: 1024px;
+        padding: 50px 0 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main--container-profiles .main--profiles {
+        max-width: 310px;
+        box-shadow: 6px 6px 6px hsl(216deg 52% 8%);
+        z-index: 2;
+    }
+
+    .main--container-profiles .main--profiles > p {
+        font-size: 1.2rem;
+        letter-spacing: .4px;
+    }
+
+    .main--registration {
+        width: 100%;
+        max-width: 800px;
+        margin-top: 130px;
+    }
+
+    .main--container-registration h3 {
+        font-size: 2.6rem;
+    }
+
+    .main--container-registration p {
+        padding: 0 40px;
+    }
+
+    form {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main--container-registration input {
+        padding: 13px 250px 11px 30px;
+        margin-bottom: 0;
+    }
+
+    .main--container-registration button {
+        padding: 13px 30px;
+    }
+
+    footer {
+        width: 100%;
+        /* display: flex; */
+        /* flex-direction: row; */
+        background-color: hsl(216, 53%, 9%);
+        display: grid;
+        /* grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+        grid-template-areas: 
+        "logo logo log logo logo",
+        "location contact footer-s1 footer-s2 rrss";
+        gap: 10px; */
+    }
+
+    .footer--container-contact {
+        /* display: grid;
+        grid-template: repeat(2, 1fr) / repeat(5, 1fr);
+        grid-template-areas: 
+        "logo logo log logo logo"
+        "location contact footer-s1 footer-s2 rrss";
+        gap: 10px; */
+    }
+
+    .footer--container-contact > figure img {
+        grid-area: logo;
+    }
+
+    .footer--container-contact .location {
+        grid-area: location;
+    }
+
+    .footer--container-contact .footer--contact {
+        grid-area: contact;
+    }
+}
+
+
+/* @media (min-width: 1024px) {
+    
+} */

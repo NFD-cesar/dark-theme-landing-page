@@ -76,14 +76,13 @@ nav ul li a {
 
 .header--ilustration-intro img {
     width: 80%;
-    max-width: 310px;
     height: 215px;
     max-width: 302px;
 }
 
-.header--description {
+.header--container-description {
     width: 100%;
-    height: 150px;
+    height: 160px;
     margin-top: 235px;
     padding: 0 30px;
     display: flex;
@@ -98,19 +97,19 @@ nav ul li a {
     z-index: 1;
 }
 
-.header {
+.header--description {
     width: 100%;
     max-width: 315px;
 }
 
-.header--description h1 {
+.header--container-description h1 {
     margin: 68px 0 20px;
     color: var(--white);
     font-size: 2.2rem;
     line-height: 3.2rem;
 }
 
-.header--description p {
+.header--container-description p {
     margin-bottom: 30px;
     font-size: 1.4rem;
     color: var(--light-gray);
@@ -119,7 +118,7 @@ nav ul li a {
     padding: 0 6px;
 }
 
-.header--description button {
+.header--container-description button {
     padding: 13px 70px;
     color: var(--white);
     border-radius: 20px;
@@ -157,6 +156,10 @@ main {
     width: 60px;
     margin-bottom: 25px;
 }
+
+/* .main--services figure .secure {
+    width: 45px;
+} */
 
 .main--services h2 {
     margin-bottom: 8px;
@@ -208,6 +211,7 @@ main {
 
 .main-productivity--access {
     width: 48%;
+    max-width: 147px;
     padding-bottom: 5px;
     border-bottom: 1px solid hsl(176, 68%, 64%);
 }
@@ -226,8 +230,8 @@ main {
     margin-left: 10px;
 }
 
-.main--container-profiles > figure img {
-    width: 20px;
+.main--container-profiles .main--container-icon figure img {
+    width: 22px;
     margin-right: 88%;
 }
 
@@ -238,7 +242,7 @@ main {
     padding: 50px 20px 0;
 }
 
-.main--profiles {
+.main--container-profiles .main--profiles {
     width: 100%;
     margin-bottom: 20px;
     padding: 30px 25px 20px;
@@ -247,15 +251,15 @@ main {
     background-color: hsl(217, 28%, 15%);
 }
 
-.main--profiles p {
+.main--container-profiles .main--profiles p {
     font-size: 1.1rem;
-    margin-bottom: 20px;
     line-height: 2rem;
     letter-spacing: .2px;
     color: var(--light-gray);
 }
 
 .main--photo {
+    margin-top: 20px;
     display: flex;
     align-items: center;
 }
