@@ -428,6 +428,11 @@ footer > figure img {
     text-decoration: none;
 }
 
+.footer--rrss a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
 .attribution p {
     font-size: 1rem;
     text-align: center;
