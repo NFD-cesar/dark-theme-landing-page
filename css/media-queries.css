@@ -18,7 +18,7 @@
     .header--container-description {
         height: 250px;
         margin-top: 340px;
-        background-image: url(../images/bg-curvy-desktop.svg);
+        background-image: url(../assets/images/bg-curvy-desktop.svg);
     }
 
     .header--description {
@@ -35,6 +35,14 @@
 
     main {
         padding: 250px 20px 250px;
+    }
+
+    .attribution p {
+        font-size: 1.1rem;
+    }
+    
+    .attribution a {
+        font-size: 1.3rem;
     }
 }
 
@@ -229,10 +237,6 @@
 
     .main--container-registration button {
         padding: 12px 30px;
-    }
-
-    footer {
-        height: 80vh;
     }
 
     .footer--container {

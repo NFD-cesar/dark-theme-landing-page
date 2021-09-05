@@ -87,7 +87,7 @@ nav ul li a {
     padding: 0 30px;
     display: flex;
     justify-content: center;
-    background-image: url(../images/bg-curvy-mobile.svg);
+    background-image: url(../assets/images/bg-curvy-mobile.svg);
     background-color: hsl(217, 28%, 15%);
     background-size: cover;
     background-position: center;
@@ -338,6 +338,7 @@ main {
 
 footer {
     width: 100%;
+    height: auto;
     display: flex;
     padding: 0 35px 0 25px;
     flex-direction: column;
@@ -424,4 +425,16 @@ footer > figure img {
 .footer--rrss a {
     width: 50px;
     color: var(--white);
+}
+
+.attribution p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 60px 0 30px;
+    color: white;
+}
+
+.attribution a {
+    font-size: 1.1rem;
+    color: white;
 }
