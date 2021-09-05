@@ -127,7 +127,6 @@ nav ul li a {
     cursor: pointer;
 }
 
-
 /* ================================================== main ================================================== */
 
 main {
@@ -156,10 +155,6 @@ main {
     width: 60px;
     margin-bottom: 25px;
 }
-
-/* .main--services figure .secure {
-    width: 45px;
-} */
 
 .main--services h2 {
     margin-bottom: 8px;
@@ -216,6 +211,11 @@ main {
     border-bottom: 1px solid hsl(176, 68%, 64%);
 }
 
+.main-productivity--access:hover {
+    border-bottom: 1px solid tomato;
+    transition-duration: .8s;
+}
+
 .main-productivity--access a {
     font-size: 1.2rem;
     display: flex;
@@ -223,6 +223,10 @@ main {
     color: hsl(176, 68%, 64%);
     text-decoration: none;
     letter-spacing: .5px;
+}
+
+.main-productivity--access a:hover {
+    text-decoration: none;
 }
 
 .main-productivity--access img {
@@ -288,7 +292,7 @@ main {
 }
 
 .main--registration {
-    width: 90%;
+    width: 100%;
     max-width: 338px;
     margin-top: 80px;
     padding: 40px 35px 30px;
@@ -411,7 +415,6 @@ footer > figure img {
 }
 
 .footer--rrss {
-    /* width: 100%; */
     height: 100px;
     display: flex;
     justify-content: center;
