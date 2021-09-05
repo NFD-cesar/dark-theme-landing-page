@@ -423,8 +423,9 @@ footer > figure img {
 }
 
 .footer--rrss a {
-    width: 50px;
+    width: 70px;
     color: var(--white);
+    text-decoration: none;
 }
 
 .attribution p {
