@@ -1,9 +1,3 @@
-@media (min-width: 425px) {
-    .header--container-description {
-        height: 200px;
-    }
-}
-
 @media (min-width: 500px) {
     .header--ilustration-intro {
         top: 80px;
