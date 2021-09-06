@@ -7,7 +7,7 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
   - [NFD César Ramírez](https://twitter.com/nfd_cesar)
 
     - [Twitter](https://twitter.com/nfd_cesar)
-    - [Instagram](https://www.instagram.com/nfd_cesar_)
+    - [Instagram](https://www.instagram.com/nfd_cesar)
     - [Frontend Mentor](https://www.frontendmentor.io/profile/NFD-cesar)
     - [CodePen](https://codepen.io/nfd-cesar)
     - [FreeCodeCamp](https://www.freecodecamp.org/nfd-cesar)
@@ -18,8 +18,8 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/NFD-cesar/dark-theme-landing-page)
+- Live Site URL: [Add live site URL here](https://nfd-cesar.github.io/dark-theme-landing-page/)
 
 ## My process
 
