@@ -6,9 +6,11 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
 
   - [NFD César Ramírez](https://twitter.com/nfd_cesar)
 
-    - Twitter: [César Ramírez](https://twitter.com/nfd_cesar)
-    - Instagram: [César Ramírez](https://www.instagram.com/nfd_cesar_)
-    - Frontend Mentor: [NFD-cesar](https://www.frontendmentor.io/profile/NFD-cesar)
+    - [Twitter](https://twitter.com/nfd_cesar)
+    - [Instagram](https://www.instagram.com/nfd_cesar_)
+    - [Frontend Mentor](https://www.frontendmentor.io/profile/NFD-cesar)
+    - [CodePen](https://codepen.io/nfd-cesar)
+    - [FreeCodeCamp](https://www.freecodecamp.org/nfd-cesar)
 
 ### Screenshot
 
