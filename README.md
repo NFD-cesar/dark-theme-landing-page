@@ -4,13 +4,11 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
 
 ## Author
 
-  - [NFD César Ramírez](https://twitter.com/nfd_cesar)
+  - [César Ramírez](https://twitter.com/ramez_cesar)
 
-    - [Twitter](https://twitter.com/nfd_cesar)
-    - [Instagram](https://www.instagram.com/nfd_cesar)
-    - [Frontend Mentor](https://www.frontendmentor.io/profile/NFD-cesar)
-    - [CodePen](https://codepen.io/nfd-cesar)
-    - [FreeCodeCamp](https://www.freecodecamp.org/nfd-cesar)
+    - [Twitter](https://twitter.com/ramez_cesar)
+    - [Frontend Mentor](https://www.frontendmentor.io/profile/ramez-cesar)
+    - [CodePen](https://codepen.io/ramez-cesar)
 
 ### Screenshot
 
@@ -18,8 +16,8 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/NFD-cesar/dark-theme-landing-page)
-- Live Site URL: [Add live site URL here](https://nfd-cesar.github.io/dark-theme-landing-page/)
+- Solution URL: [Add solution URL here](https://github.com/ramez-cesar/dark-theme-landing-page)
+- Live Site URL: [Add live site URL here](https://ramez-cesar.github.io/dark-theme-landing-page/)
 
 ## My process
 
