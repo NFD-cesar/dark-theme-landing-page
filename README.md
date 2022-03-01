@@ -4,7 +4,7 @@ This is a solution to the [Social proof section challenge on Frontend](https://w
 
 ## Author
 
-  - [César Ramírez](https://twitter.com/ramez_cesar)
+  - [NFD César Ramírez](https://twitter.com/ramez_cesar)
 
     - [Twitter](https://twitter.com/ramez_cesar)
     - [Frontend Mentor](https://www.frontendmentor.io/profile/ramez-cesar)
