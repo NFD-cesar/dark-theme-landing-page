@@ -304,3 +304,64 @@ main .main-registration form button {
   transition: 0.5s;
 }
 
+/* ======================================== footer ======================================== */
+
+footer {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #0b1523;
+}
+
+footer figure img {
+  width: 100px;
+  padding-top: 160px;
+  margin-bottom: 30px;
+}
+
+footer div:not(.footer-navbar) {
+  width: 100%;
+  max-width: 335px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+footer div svg {
+  width: 25px;
+}
+
+footer div p {
+  width: 100%;
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
+
+footer .footer-navbar {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+footer .footer-navbar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+footer .footer-navbar ul li {
+  list-style: none;
+}
+
+footer .footer-navbar ul li a {
+  font-size: 1.4rem;
+}
+
+footer .footer-navbar ul li a:hover {
+  color: #4FC0D0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
