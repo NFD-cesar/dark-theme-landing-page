@@ -199,3 +199,47 @@ main .main-productivity article .main-productivity--access a {
   gap: 15px;
 }
 
+/* ======================================== profiles ======================================== */
+
+main .main-profiles {
+  gap: 20px;
+}
+
+main .main-profiles article {
+  width: 240px;
+  padding: 25px 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1c2431;
+  border-radius: 8px;
+  gap: 20px;
+  box-shadow: 6px 6px 6px #0a121f;
+}
+
+main .main-profiles article p {
+  font-size: 1.1rem;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
+
+main .main-profiles article div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main .main-profiles article div figure img {
+  width: 35px;
+  border-radius: 50%;
+}
+
+main .main-profiles article div span h3 {
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+main .main-profiles article div span p {
+  font-size: 1.1rem;
+  letter-spacing: 0.4px;
+}
+
