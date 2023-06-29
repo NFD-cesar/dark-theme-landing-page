@@ -22,3 +22,141 @@
   }
 }
 
+@media (min-width: 950px) {
+  header {
+    height: 90px;
+    padding: 0 60px;
+  }
+
+  header figure img {
+    width: 100px;
+  }
+
+  header nav ul {
+    gap: 30px;
+  }
+
+  header nav ul li a {
+    font-size: 1.5rem;
+  }
+
+  main .main-description {
+    padding-bottom: 60px;
+  }
+
+  main :is(.main-description, .main-productivity) figure img {
+    width: 400px;
+  }
+  
+  main .main-description article {
+    max-width: 550px;
+  }
+
+  main .main-description article h1 {
+    font-size: 2.6rem;
+  }
+
+  main .main-description article p,
+  footer .footer-information div p,
+  footer .footer-navbar ul li a {
+    font-size: 1.5rem;
+  }
+
+  main .main-description article button {
+    font-size: 1.5rem;
+  }
+
+  main .main-services, .main-productivity, .main-profiles {
+    padding: 100px 20px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+
+  main :is(.main-services div, .main-productivity article) {
+    flex-basis: 500px;
+  }
+
+  main :is(.main-services div, .main-productivity) article h2 {
+    font-size: 2rem;
+  }
+
+  main :is(.main-services div, .main-productivity) article p {
+    font-size: 1.4rem;
+  }
+
+  main .main-productivity article .main-productivity--access a {
+    font-size: 1.4rem;
+  }
+
+  main .main-profiles article {
+    width: 350px;
+  }
+  
+  main :is(.main-profiles article, main .main-profiles article div span) p {
+    font-size: 1.3rem;
+  }
+
+  main .main-profiles article div span h3 {
+    font-size: 1.4rem;
+  }
+
+  main .main-registration {
+    height: 110px;
+  }
+
+  main .main-registration div {
+    max-width: 700px;
+    padding: 40px;
+  }
+
+  main .main-registration h2 {
+    font-size: 2rem;
+  }
+
+  main .main-registration p {
+    font-size: 1.4rem;
+  }
+
+  main .main-registration form {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  main .main-registration form input {
+    flex: 1 0 60%;
+  }
+
+  main .main-registration form button {
+    flex: 1 0 20%;
+  }
+
+  footer {
+    padding: 40px 60px 90px;
+  }
+
+  footer figure img {
+    width: 120px;
+  }
+  
+  footer .footer-information {
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  footer .footer-information div:not(.footer-navbar) {
+    max-width: 300px;
+  }
+
+  footer .footer-information .footer-navbar {
+    min-width: 300px;
+    justify-content: space-between;
+  }
+  
+  footer .footer-navbar {
+    margin: 0;
+    flex-direction: row;
+  }
+}
