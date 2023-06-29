@@ -215,6 +215,21 @@ main .main-profiles {
   gap: 20px;
 }
 
+main .main-profiles article:first-child {
+  position: relative;
+}
+
+main .main-profiles article:first-child::after {
+  content: '';
+  width: 30px;
+  height: 23px;
+  background-image: url('../assets/images/bg-quotes.png');
+  position: absolute;
+  background-size: cover;
+  left: 0;
+  top: -25px;
+}
+
 main .main-profiles article {
   width: 240px;
   padding: 25px 25px;
