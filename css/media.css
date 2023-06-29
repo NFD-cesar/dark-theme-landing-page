@@ -4,3 +4,21 @@
   }
 }
 
+@media (min-width: 768px) {
+  header figure img {
+    width: 80px;
+  }
+
+  main .main-profiles article {
+    width: 300px;
+  }
+
+  main :is(.main-profiles article, main .main-profiles article div span) p {
+    font-size: 1.2rem;
+  }
+
+  main .main-profiles article div span h3 {
+    font-size: 1.3rem;
+  }
+}
+
