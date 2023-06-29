@@ -114,9 +114,15 @@ main :is(.main-description article, .main-registration form) button:hover {
   background-color: #0A6EBD;
 }
 
-main .main-description svg {
+main .main-description::before {
+  content: '';
   width: 100%;
+  height: 300px;
+  background-image: url('../assets/images/wave.svg');
   position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   bottom: 0;
   z-index: 1;
 }
@@ -141,6 +147,10 @@ main .main-services div {
 
 main .main-services div figure img {
   width: 55px;
+}
+
+main .main-services div figure .icon-security {
+  width: 40px;
 }
 
 main .main-services div article {
@@ -308,19 +318,22 @@ main .main-registration form button {
 
 footer {
   padding: 50px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
   background-color: #0b1523;
 }
 
 footer figure img {
   width: 100px;
   padding-top: 160px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
-footer div:not(.footer-navbar) {
+footer .footer-information {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+footer .footer-information div:not(.footer-navbar) {
   width: 100%;
   max-width: 335px;
   display: flex;
@@ -328,11 +341,11 @@ footer div:not(.footer-navbar) {
   gap: 20px;
 }
 
-footer div svg {
+footer .footer-information div svg {
   width: 25px;
 }
 
-footer div p {
+footer .footer-information div p {
   width: 100%;
   font-size: 1.4rem;
   letter-spacing: 0.4px;
@@ -340,10 +353,10 @@ footer div p {
 }
 
 footer .footer-navbar {
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 
 footer .footer-navbar ul {
