@@ -162,3 +162,40 @@ main .main-services div article p {
   line-height: 20px;
 }
 
+/* ======================================== productivity ======================================== */
+
+main .main-productivity {
+  padding: 50px 0;
+}
+
+main .main-productivity article {
+  text-align: start;
+  align-items: start;
+}
+
+main .main-productivity article h2 {
+  font-size: 1.8rem;
+  letter-spacing: 0.2px;
+}
+
+main .main-productivity article p {
+  font-size: 1.3rem;
+  letter-spacing: 0.4px;
+  line-height: 20px;
+}
+
+main .main-productivity article .main-productivity--access {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: aqua;
+}
+
+main .main-productivity article .main-productivity--access a {
+  color: aqua;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
