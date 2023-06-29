@@ -1,0 +1,6 @@
+@media (min-width: 425px) {
+  main .main-description article {
+    max-width: 400px;
+  }
+}
+
